@@ -1,0 +1,629 @@
+.bgVectorIcon {
+  position: absolute;
+  top: -67px;
+  left: -37px;
+  width: 1994.3px;
+  height: 1143.5px;
+}
+.bookingsChild {
+  height: 70px;
+  width: 70px;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.bookings1,
+.bookingsChild,
+.div {
+  position: relative;
+}
+.bookings1 {
+  font-family: var(--titles-large);
+}
+.div {
+  font-size: var(--body-large-size);
+  color: var(--light-version-type-light);
+  display: inline-block;
+  min-width: 26px;
+}
+.iconincrease {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 18px;
+}
+.div1 {
+  position: relative;
+  display: inline-block;
+  min-width: 25px;
+}
+.iconincreaseParent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  font-size: var(--body-small-size);
+  color: var(--light-version-brand-primary);
+}
+.bookings,
+.bookingsParent,
+.iconincreaseParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bookingsParent {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.bookings {
+  height: 70px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 var(--padding-71xl);
+  box-sizing: border-box;
+}
+.date {
+  width: 29px;
+  position: relative;
+  font-size: var(--body-small-size);
+  color: var(--light-version-type-light);
+  text-align: right;
+  display: none;
+}
+.saleInfo {
+  position: absolute;
+  top: 135px;
+  left: 900px;
+  border-radius: var(--br-xl);
+  background-color: var(--light-mode-white-50);
+  box-shadow: var(--light-version-shadow-1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+}
+.dateChild {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.bookings2 {
+  position: relative;
+  font-family: var(--titles-large);
+  white-space: pre-wrap;
+}
+.div2 {
+  position: relative;
+  font-size: var(--body-large-size);
+  color: var(--light-version-type-light);
+  display: inline-block;
+  min-width: 35px;
+}
+.iconincrease1 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 18px;
+}
+.div3 {
+  position: relative;
+  display: inline-block;
+  min-width: 17px;
+}
+.iconincreaseGroup {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  font-size: var(--body-small-size);
+  color: var(--light-version-brand-primary);
+}
+.bookingsGroup,
+.date1,
+.iconincreaseGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bookingsGroup {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.date1 {
+  height: 70px;
+  width: 158px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.date2 {
+  width: 29px;
+  position: relative;
+  font-size: var(--body-small-size);
+  color: var(--light-version-type-light);
+  text-align: right;
+  display: none;
+}
+.saleInfo1 {
+  position: absolute;
+  top: 138px;
+  left: 329px;
+  border-radius: var(--br-xl);
+  background-color: var(--light-mode-white-50);
+  box-shadow: var(--light-version-shadow-1);
+  width: 260px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+}
+.revenueChild {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.bookings3 {
+  position: relative;
+  font-family: var(--titles-large);
+}
+.div4 {
+  position: relative;
+  font-size: var(--body-large-size);
+  color: var(--light-version-type-light);
+  display: inline-block;
+  min-width: 17px;
+}
+.iconincrease2 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 18px;
+}
+.div5 {
+  position: relative;
+  display: inline-block;
+  min-width: 17px;
+}
+.iconincreaseContainer {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  font-size: var(--body-small-size);
+  color: var(--light-version-brand-primary);
+}
+.bookingsContainer,
+.iconincreaseContainer,
+.revenue {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bookingsContainer {
+  background-color: var(--light-mode-white-50);
+  flex-direction: column;
+  gap: var(--gap-8xs);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.revenue {
+  height: 70px;
+  width: 158px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.date3 {
+  width: 29px;
+  position: relative;
+  font-size: var(--body-small-size);
+  color: var(--light-version-type-light);
+  text-align: right;
+  display: none;
+}
+.saleInfo2 {
+  position: absolute;
+  top: 127px;
+  left: 1058px;
+  border-radius: var(--br-xl);
+  background-color: var(--light-mode-white-50);
+  box-shadow: var(--light-version-shadow-1);
+  width: 279px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+}
+.followersChild {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.bookings4,
+.div6 {
+  position: relative;
+  display: inline-block;
+}
+.bookings4 {
+  font-family: var(--titles-large);
+  min-width: 93px;
+}
+.div6 {
+  font-size: var(--body-large-size);
+  color: var(--light-version-type-light);
+  min-width: 31px;
+}
+.iconincrease3 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 18px;
+}
+.div7 {
+  position: relative;
+  display: inline-block;
+  min-width: 24px;
+}
+.iconincreaseParent1 {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  font-size: var(--body-small-size);
+  color: var(--light-version-brand-primary);
+}
+.followers,
+.frameDiv,
+.iconincreaseParent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.followers {
+  height: 70px;
+  width: 158px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.date4 {
+  width: 29px;
+  position: relative;
+  font-size: var(--body-small-size);
+  color: var(--light-version-type-light);
+  text-align: right;
+  display: none;
+}
+.saleInfo3 {
+  position: absolute;
+  top: 129px;
+  left: 1472px;
+  border-radius: var(--br-xl);
+  background-color: var(--light-mode-white-50);
+  box-shadow: var(--light-version-shadow-1);
+  width: 260px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+}
+.contribute,
+.giveGiftIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.giveGiftIcon {
+  height: 21px;
+  width: 21px;
+  overflow: hidden;
+}
+.contribute {
+  align-self: stretch;
+  flex: 1;
+}
+.favouriteMenu {
+  position: absolute;
+  top: 463px;
+  left: 46.5px;
+  width: 169px;
+  height: 25px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--bold-16-24);
+}
+.shelf {
+  margin: 0;
+  top: 75px;
+  left: -241px;
+  font-size: var(--font-size-29xl);
+  font-weight: 400;
+  font-family: var(--font-abel);
+  background: linear-gradient(91.24deg, #ee7a3a, #ea357d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  display: inline-block;
+  width: 740.9px;
+  height: 141.3px;
+  z-index: 1;
+}
+.icon,
+.shelf,
+.smart {
+  position: absolute;
+}
+.smart {
+  margin: 0;
+  top: 145px;
+  left: -224px;
+  font-size: var(--font-size-29xl);
+  letter-spacing: 0.22em;
+  font-weight: 400;
+  font-family: var(--font-abel);
+  color: var(--color-dimgray);
+  text-align: center;
+  display: inline-block;
+  width: 705.7px;
+  height: 141.3px;
+  z-index: 2;
+}
+.icon {
+  height: 6.06%;
+  width: 4.11%;
+  top: 8.8%;
+  right: 57.47%;
+  bottom: 84.2%;
+  left: 920px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+
+}
+.showing5Of {
+  align-self: stretch;
+  height: 18px;
+  position: relative;
+  display: inline-block;
+}
+.objectObjective {
+  width: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+  box-sizing: border-box;
+}
+.button,
+.textButton {
+  align-self: stretch;
+  flex: 1;
+}
+.button {
+  position: relative;
+}
+.textButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+}
+.iconButton {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.dataProcessor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.dataProcessor1 {
+  margin: 0;
+  height: 42.5px;
+  width: 40px;
+}
+.button1,
+.textButton1 {
+  align-self: stretch;
+  flex: 1;
+}
+.button1 {
+  position: relative;
+}
+.textButton1 {
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  color: var(--light-version-brand-primary);
+}
+.classClassifier,
+.moduleModulemaker,
+.textButton1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.moduleModulemaker {
+  height: 45px;
+  width: 216px;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  text-align: center;
+  font-size: var(--body-large-size);
+}
+.classClassifier {
+  flex: 1;
+  justify-content: space-between;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frameParent,
+.procedureProcedural {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.procedureProcedural {
+  width: 724px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xl);
+  flex-shrink: 0;
+}
+.frameParent {
+  position: absolute;
+  top: 800px;
+  left: 300px;
+  border-radius: var(--br-xl);
+  background-color: var(--light-mode-white-50);
+  box-shadow: var(--light-version-shadow-1);
+  width: 1000px;
+  height: 438px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-2xl) 0 6.5px;
+  gap: 115.5px;
+  font-size: var(--body-small-size);
+  color: var(--light-version-type-light);
+}
+.bookList,
+.overdueList {
+  position: absolute;
+  font-family: var(--titles-large);
+}
+.overdueList {
+  top: 960px;
+  left: 323px;
+  font-size: var(--headlines-large-size);
+  display: inline-block;
+  width: 258px;
+  height: 20px;
+}
+.bookList {
+  top: 30px;
+  left: 30px;
+  display: none;
+}
+.topMain {
+  position: relative;
+  top: 0;
+  left: 260px;
+  width: 1600px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 99;
+  max-width: 100%;
+  
+}
+
+.dashboard {
+  position: absolute;
+  top: 23px;
+  left: 21px;
+  background-color: var(--color-whitesmoke);
+  width: 1877px;
+  height: 1615px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--titles-large-size);
+  color: var(--light-version-type-dark);
+  font-family: var(--body-large);
+}
+.homeAdmin {
+  width: 100%;
+  height: 1705px;
+  position: relative;
+  background-color: var(--light-mode-white-50);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .shelf,
+  .smart {
+    font-size: var(--font-size-19xl);
+  }
+  .dashboard,
+  .homeAdmin {
+    height: auto;
+    min-height: 1615;
+  }
+  .homeAdmin {
+    min-height: 1705;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bookings1,
+  .bookings2,
+  .bookings3,
+  .bookings4,
+  .contribute {
+    font-size: var(--bold-16-24-size);
+  }
+  .shelf,
+  .smart {
+    font-size: var(--font-size-10xl);
+  }
+  .classClassifier {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    height: auto;
+  }
+  .overdueList {
+    font-size: 23px;
+  }
+  .bookList {
+    font-size: var(--bold-16-24-size);
+  }
+}

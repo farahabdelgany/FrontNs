@@ -1,0 +1,50 @@
+.regNo {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+  z-index: 1;
+}
+.collegeRegNo {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--bold-16-24);
+  font-size: var(--bold-16-24-size);
+  background-color: transparent;
+  height: 24px;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  color: var(--color-dimgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 234px;
+  max-width: 100%;
+  padding: 0;
+}
+.regNoParent,
+.usernameAndEmailContainer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.usernameAndEmailContainer {
+  border-radius: var(--br-5xs);
+  background-color: var(--light-mode-white-50);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-mini);
+  z-index: 1;
+}
+.regNoParent {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--bold-16-24-size);
+  color: var(--color-dimgray);
+  font-family: var(--bold-16-24);
+}

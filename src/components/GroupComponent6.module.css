@@ -1,0 +1,57 @@
+.sequence {
+  border: 1px solid var(--color-gainsboro-500);
+  outline: 0;
+  background-color: transparent;
+  width: 519px;
+  height: 52px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(#fafbfc, #fafbfc), #fff;
+  box-sizing: border-box;
+}
+.fullName,
+.reinhardKenson {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 73px;
+}
+.reinhardKenson {
+  line-height: 16px;
+  min-width: 113px;
+  z-index: 1;
+}
+.reinhardKensonWrapper,
+.sequenceParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm);
+  font-size: var(--body-large-size);
+  color: var(--color-lightslategray-100);
+}
+.sequenceParent {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-12xs) var(--padding-lg);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-10xl);
+  min-width: 353px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--bold-16-24-size);
+  color: var(--color-dimgray-400);
+  font-family: var(--bold-16-24);
+}
+@media screen and (max-width: 800px) {
+  .sequenceParent {
+    min-width: 100%;
+  }
+}

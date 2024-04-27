@@ -1,0 +1,192 @@
+.heroiconsMinihome {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heroiconsMinihomeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.home {
+  flex: 1;
+  position: relative;
+}
+.homeMenu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.searchIcon {
+  width: 23px;
+  height: 23px;
+  position: relative;
+}
+.searchWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.search {
+  flex: 1;
+  position: relative;
+}
+.searchMenu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.bookshelfIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bookshelfWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.myShelf {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 var(--padding-11xs-5);
+  color: var(--color-dimgray);
+}
+.frameWrapper,
+.searchMenuParent,
+.sideBarInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchMenuParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-15xl);
+}
+.sideBarInner {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) var(--padding-448xl) var(--padding-11xs-5);
+}
+.about,
+.sideBarInner,
+.support {
+  align-self: stretch;
+}
+.about,
+.support,
+.termsCondition {
+  position: relative;
+  z-index: 1;
+}
+.aboutParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.aboutParent,
+.sideBar,
+.sideBarChild {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sideBarChild {
+  width: 138px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+}
+.sideBar {
+  flex: 1;
+  border-radius: var(--br-3xs) 0 0 var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-193xl) var(--padding-47xl) var(--padding-32xl);
+  gap: var(--gap-15xl);
+}
+.contribute,
+.giveGiftIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.giveGiftIcon {
+  height: 21px;
+  width: 21px;
+  overflow: hidden;
+}
+.contribute {
+  align-self: stretch;
+  flex: 1;
+}
+.favouriteMenu,
+.sideBarFrame {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.favouriteMenu {
+  height: 25px;
+  width: 169px;
+  display: none;
+  align-items: center;
+  gap: var(--gap-xs);
+  cursor: pointer;
+}
+.sideBarFrame {
+  position: absolute;
+  top: 48px;
+  left: 35px;
+  width: 306px;
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--bold-16-24);
+}
+@media screen and (max-width: 450px) {
+  .contribute,
+  .home,
+  .myShelf,
+  .search {
+    font-size: var(--bold-16-24-size);
+  }
+}

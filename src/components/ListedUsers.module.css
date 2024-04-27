@@ -1,0 +1,610 @@
+.listedUsers1 {
+  height: 26px;
+  position: relative;
+  display: inline-block;
+  min-width: 118px;
+}
+.listedUsersWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xl);
+}
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameParent {
+  width: 744px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.name {
+  position: relative;
+  display: inline-block;
+  min-width: 44px;
+}
+.dataAggregatorIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 40px;
+}
+.brand,
+.brand1 {
+  position: relative;
+  display: inline-block;
+  min-width: 107px;
+}
+.brand1 {
+  font-size: var(--body-small-size);
+  color: var(--light-version-type-light);
+  min-width: 116px;
+  white-space: nowrap;
+}
+.brandParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productDetail {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.nameParent,
+.productDetail,
+.productDetailWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productDetailWrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-2xs);
+  font-size: var(--body-large-size);
+  font-family: var(--body-large);
+}
+.nameParent {
+  flex-direction: column;
+  gap: var(--gap-11xl);
+}
+.el40012,
+.id {
+  position: relative;
+  display: inline-block;
+  min-width: 19px;
+}
+.el40012 {
+  min-width: 53px;
+}
+.childCollector,
+.frameDiv,
+.treeStructure {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.treeStructure {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-2xs);
+  font-size: var(--body-large-size);
+  color: var(--light-version-type-light);
+  font-family: var(--body-large);
+}
+.childCollector,
+.frameDiv {
+  flex-direction: column;
+  gap: var(--gap-22xl);
+}
+.frameDiv {
+  flex-direction: row;
+  gap: var(--gap-24xl);
+}
+.bookIssued,
+.div {
+  position: relative;
+  display: inline-block;
+  min-width: 91px;
+}
+.div {
+  min-width: 13px;
+}
+.bookIssuedParent,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-2xs);
+  font-size: var(--body-large-size);
+  color: var(--light-version-type-light);
+  font-family: var(--body-large);
+}
+.bookIssuedParent {
+  flex-direction: column;
+  gap: var(--gap-22xl);
+}
+.bookId {
+  position: relative;
+  display: inline-block;
+  min-width: 60px;
+}
+.errorHandler {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.outputProcessor {
+  position: relative;
+  font-size: var(--body-large-size);
+  font-family: var(--body-large);
+  color: var(--light-version-type-light);
+  display: inline-block;
+  min-width: 56px;
+}
+.errorHandlerParent,
+.outputFormatter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-22xl);
+}
+.outputFormatter {
+  width: 217px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.action {
+  flex: 1;
+  position: relative;
+}
+.actionWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xl);
+}
+.actionIcon {
+  width: 96px;
+  height: 32px;
+  position: relative;
+}
+.frameContainer,
+.frameParent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  width: 116px;
+  flex-direction: column;
+  gap: var(--gap-11xl);
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-47xl);
+  font-size: var(--bold-16-24-size);
+  color: var(--light-version-type-dark);
+  font-family: var(--titles-large);
+}
+.productDetailChild {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 40px;
+}
+.brand2,
+.brand3 {
+  position: relative;
+}
+.brand2 {
+  display: inline-block;
+  min-width: 65px;
+}
+.brand3 {
+  font-size: var(--body-small-size);
+  color: var(--light-version-type-light);
+  white-space: nowrap;
+}
+.brandGroup,
+.productDetail1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productDetail1 {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  color: var(--light-version-type-dark);
+}
+.el40013 {
+  position: relative;
+  display: inline-block;
+  min-width: 53px;
+}
+.el40013Wrapper {
+  width: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div1 {
+  position: relative;
+  display: inline-block;
+  min-width: 16px;
+}
+.container {
+  width: 94px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div2 {
+  position: relative;
+  display: inline-block;
+  min-width: 57px;
+}
+.frame {
+  width: 111px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.actionIcon1 {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.actionContainer,
+.productDetailParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.actionContainer {
+  width: 96px;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.productDetailParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-19xl);
+}
+.productDetailItem {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 40px;
+}
+.brand4,
+.brand5 {
+  position: relative;
+  display: inline-block;
+  min-width: 56px;
+}
+.brand5 {
+  font-size: var(--body-small-size);
+  color: var(--light-version-type-light);
+  min-width: 123px;
+  white-space: nowrap;
+}
+.brandContainer,
+.productDetail2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productDetail2 {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  color: var(--light-version-type-dark);
+}
+.el40014 {
+  position: relative;
+  display: inline-block;
+  min-width: 53px;
+}
+.el40014Wrapper {
+  width: 83px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div3 {
+  position: relative;
+  display: inline-block;
+  min-width: 18px;
+}
+.wrapper1 {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div4 {
+  position: relative;
+  display: inline-block;
+  min-width: 56px;
+}
+.wrapper2 {
+  width: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.actionIcon2 {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.actionFrame {
+  width: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.frameWrapper1,
+.productDetailGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.productDetailGroup {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper1 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.frameParent2,
+.frameWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent2 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-4xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-2xs) var(--padding-3xs) var(--padding-7xs);
+  box-sizing: border-box;
+}
+.productDetailInner {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 40px;
+}
+.brand6,
+.brand7 {
+  position: relative;
+  display: inline-block;
+  min-width: 91px;
+}
+.brand7 {
+  font-size: var(--body-small-size);
+  color: var(--light-version-type-light);
+  min-width: 104px;
+  white-space: nowrap;
+}
+.brandParent1 {
+  flex-direction: column;
+}
+.brandParent1,
+.productDetail3,
+.productDetailContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productDetail3 {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.productDetailContainer {
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+  color: var(--light-version-type-dark);
+}
+.el40016 {
+  position: relative;
+  display: inline-block;
+  min-width: 53px;
+}
+.el40016Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-2xs) 0 0;
+}
+.div5 {
+  position: relative;
+  display: inline-block;
+  min-width: 17px;
+}
+.wrapper3 {
+  width: 73px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.div6 {
+  position: relative;
+  display: inline-block;
+  min-width: 53px;
+}
+.wrapper4 {
+  width: 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.actionIcon3 {
+  height: 32px;
+  width: 96px;
+  position: relative;
+}
+.frameParent3 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frameWrapper2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-sm) 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.frameGroup,
+.frameWrapper2,
+.listedUsersInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-11xl);
+}
+.listedUsersInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-lgi) var(--padding-393xl);
+  box-sizing: border-box;
+  font-size: var(--body-large-size);
+  color: var(--light-version-type-light);
+  font-family: var(--body-large);
+}
+.listedUsersChild {
+  width: 744px;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+.listedUsers {
+  position: absolute;
+  top: 280px;
+  left: 300px;
+  border-radius: var(--br-xl);
+  background-color: var(--light-mode-white-50);
+  box-shadow: var(--light-version-shadow-1);
+  width: 1000px;
+  height: 456px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-xl) var(--padding-11xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-10xl);
+  max-width: 100%;
+  z-index: 3;
+  text-align: left;
+  font-size: var(--titles-large-size);
+  color: var(--light-version-type-dark);
+  font-family: var(--titles-large);
+}
+@media screen and (max-width: 1050px) {
+  .frameContainer,
+  .productDetailParent {
+    flex-wrap: wrap;
+  }
+  .listedUsers {
+    height: auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent3,
+  .productDetailGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .listedUsers1 {
+    font-size: var(--bold-16-24-size);
+  }
+}

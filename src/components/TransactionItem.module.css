@@ -1,0 +1,106 @@
+.gamepad2Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon {
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.gtr5 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.itemName,
+.name {
+  display: flex;
+  justify-content: flex-start;
+}
+.name {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.itemName {
+  width: 194px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.creditCard,
+.gadgetGear,
+.may2023 {
+  width: 144px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.creditCard {
+  width: 168px;
+}
+.shopNamePaymentMethod {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-width: 402px;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.none {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.price {
+  width: 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+  color: var(--default-black);
+}
+.itemName1,
+.transactionItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.itemName1 {
+  flex: 1;
+  gap: var(--gap-53xl);
+  max-width: 100%;
+  text-align: center;
+  color: var(--gray-01);
+}
+.transactionItem {
+  width: 1048px;
+  border-bottom: 1px solid var(--special-bg);
+  box-sizing: border-box;
+  padding: var(--padding-mini) 0 var(--padding-sm);
+  gap: var(--gap-61xl);
+  text-align: left;
+  font-size: var(--bold-16-24-size);
+  color: var(--default-black);
+  font-family: var(--bold-16-24);
+}
+@media screen and (max-width: 800px) {
+  .shopNamePaymentMethod {
+    flex-wrap: wrap;
+  }
+}

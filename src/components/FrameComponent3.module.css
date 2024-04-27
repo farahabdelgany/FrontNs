@@ -1,0 +1,92 @@
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2 {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  z-index: 1;
+}
+.frameContainer,
+.vectorParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorParent {
+  gap: var(--gap-smi-5);
+}
+.frameContainer {
+  padding: var(--padding-11xs-5) 0 0;
+}
+.hardCopy {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.hardCopyWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.eBook,
+.eBookWrapper,
+.hardCopyWrapper {
+  align-self: stretch;
+  flex: 1;
+}
+.eBook {
+  position: relative;
+  line-height: 150%;
+  z-index: 1;
+}
+.eBookWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.audioBook {
+  width: 84px;
+  height: 20px;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameGroup {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.frameGroup,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-7xs);
+}
+.frameWrapper {
+  height: 86.5px;
+  width: 145px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-smi-5) var(--padding-19xl) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray);
+  font-family: var(--bold-16-24);
+}

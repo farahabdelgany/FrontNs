@@ -1,0 +1,1857 @@
+.frameChild {
+  height: 170px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangleWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-8xs);
+}
+.dontMakeMe,
+.steveKrug2000 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.dontMakeMe {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.steveKrug2000 {
+  width: 101px;
+}
+.span {
+  color: var(--color-darkgray-100);
+}
+.div {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.dontMakeMeThinkParent,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dontMakeMeThinkParent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameParent {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-end;
+  padding: var(--padding-base) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.frameItem {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.donNorman1988,
+.theDesignOf {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.theDesignOf {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.donNorman1988 {
+  width: 101px;
+}
+.span1 {
+  color: var(--color-darkgray-100);
+}
+.div1 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.theDesignOfEveryParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameInner,
+.rectangleParent {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleParent {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameInner {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.jakeKnapp2000,
+.sprintHow {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.sprintHow {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.jakeKnapp2000 {
+  width: 101px;
+}
+.span2 {
+  color: var(--color-darkgray-100);
+}
+.div2 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.sprintHowToSolveParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.rectangleGroup,
+.rectangleIcon {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleGroup {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.rectangleIcon {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.jeffGothelf2016,
+.learnUx {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.learnUx {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.jeffGothelf2016 {
+  width: 101px;
+}
+.span3 {
+  color: var(--color-darkgray-100);
+}
+.div3 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.learnUxDesignGrParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild1,
+.rectangleContainer {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleContainer {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild1 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.steveKrug20001,
+.theRoadTo {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.theRoadTo {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.steveKrug20001 {
+  width: 101px;
+}
+.span4 {
+  color: var(--color-darkgray-100);
+}
+.div4 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.theRoadToReactParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild2,
+.frameDiv {
+  align-self: stretch;
+  overflow: hidden;
+}
+.frameDiv {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild2 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.richDadPoor {
+  font-size: var(--body-small-size);
+}
+.richDadPoor,
+.robertTkiyosaki1997 {
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.span5 {
+  color: var(--color-darkgray-100);
+}
+.div5 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.richDadPoorDadParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild3,
+.rectangleParent1 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleParent1 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild3 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.harryPotterAnd,
+.jkRowling2002 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.harryPotterAnd {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+  white-space: nowrap;
+}
+.jkRowling2002 {
+  width: 101px;
+}
+.span6 {
+  color: var(--color-darkgray-100);
+}
+.div6 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.harryPotterAndTheParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild4,
+.rectangleParent2 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleParent2 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild4 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.kyleSimpson2014,
+.youDontKnow {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.youDontKnow {
+  width: 130px;
+  font-size: var(--body-small-size);
+}
+.kyleSimpson2014 {
+  width: 101px;
+}
+.span7 {
+  color: var(--color-darkgray-100);
+}
+.div7 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.recommendedBookList,
+.rectangleParent3,
+.youDontKnowJsSParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.youDontKnowJsSParent {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.recommendedBookList,
+.rectangleParent3 {
+  flex-shrink: 0;
+}
+.rectangleParent3 {
+  align-self: stretch;
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.recommendedBookList {
+  width: 1535px;
+  height: 260px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: var(--gap-20xl);
+  debug_commit: 1de1738;
+  z-index: 1;
+  font-size: var(--font-size-3xs);
+}
+.academicBooks {
+  margin: 0;
+  align-self: stretch;
+  height: 34px;
+  position: relative;
+  font-size: inherit;
+  line-height: 128.52%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.academicBooksWrapper {
+  width: 238px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.showAll {
+  margin: 0;
+  height: 34px;
+  width: 143px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 128.52%;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-gray-200);
+  text-align: right;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameContainer {
+  width: 1453px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frameChild5 {
+  height: 170px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangleFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-8xs);
+}
+.dontMakeMe1,
+.steveKrug20002 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.dontMakeMe1 {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.steveKrug20002 {
+  width: 101px;
+}
+.span8 {
+  color: var(--color-darkgray-100);
+}
+.div8 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.dontMakeMeThinkGroup,
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dontMakeMeThinkGroup {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameParent1 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-end;
+  padding: var(--padding-base) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.frameChild6 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.donNorman19881,
+.theDesignOf1 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.theDesignOf1 {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.donNorman19881 {
+  width: 101px;
+}
+.span9 {
+  color: var(--color-darkgray-100);
+}
+.div9 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.theDesignOfEveryGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild7,
+.rectangleParent4 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleParent4 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild7 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.jakeKnapp20001,
+.sprintHow1 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.sprintHow1 {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.jakeKnapp20001 {
+  width: 101px;
+}
+.span10 {
+  color: var(--color-darkgray-100);
+}
+.div10 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.sprintHowToSolveGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild8,
+.rectangleParent5 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleParent5 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild8 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.jeffGothelf20161,
+.learnUx1 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.learnUx1 {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.jeffGothelf20161 {
+  width: 101px;
+}
+.span11 {
+  color: var(--color-darkgray-100);
+}
+.div11 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.learnUxDesignGrGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild9,
+.rectangleParent6 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleParent6 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild9 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.steveKrug20003,
+.theRoadTo1 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.theRoadTo1 {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.steveKrug20003 {
+  width: 101px;
+}
+.span12 {
+  color: var(--color-darkgray-100);
+}
+.div12 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.theRoadToReactGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild10,
+.rectangleParent7 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleParent7 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild10 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.richDadPoor1 {
+  font-size: var(--body-small-size);
+}
+.richDadPoor1,
+.robertTkiyosaki19971 {
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.span13 {
+  color: var(--color-darkgray-100);
+}
+.div13 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.richDadPoorDadGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild11,
+.rectangleParent8 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleParent8 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild11 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.harryPotterAnd1,
+.jkRowling20021 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.harryPotterAnd1 {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+  white-space: nowrap;
+}
+.jkRowling20021 {
+  width: 101px;
+}
+.span14 {
+  color: var(--color-darkgray-100);
+}
+.div14 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.harryPotterAndTheGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild12,
+.rectangleParent9 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleParent9 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild12 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.kyleSimpson20141,
+.youDontKnow1 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.youDontKnow1 {
+  width: 130px;
+  font-size: var(--body-small-size);
+}
+.kyleSimpson20141 {
+  width: 101px;
+}
+.span15 {
+  color: var(--color-darkgray-100);
+}
+.div15 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.youDontKnowJsSGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.rectangleParent10 {
+  align-self: stretch;
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameGroup,
+.recommendedBookList1,
+.rectangleParent10 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.recommendedBookList1 {
+  width: 1535px;
+  height: 260px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: var(--gap-20xl);
+  max-width: 100%;
+  font-size: var(--font-size-3xs);
+}
+.frameGroup {
+  flex-direction: column;
+  padding: 0 var(--padding-lg) var(--padding-3xs) 0;
+  gap: var(--gap-2xs);
+  debug_commit: 1de1738;
+}
+.journalsArticles,
+.showAll1 {
+  margin: 0;
+  height: 34px;
+  position: relative;
+  line-height: 128.52%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.journalsArticles {
+  width: 513px;
+  font-size: inherit;
+  max-width: 100%;
+}
+.showAll1 {
+  width: 143px;
+  font-size: var(--font-size-xl);
+  text-align: right;
+}
+.journalsArticlesPaperPubParent {
+  width: 1453px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frameChild13 {
+  height: 170px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangleWrapper1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-8xs);
+}
+.dontMakeMe2,
+.steveKrug20004 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.dontMakeMe2 {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.steveKrug20004 {
+  width: 101px;
+}
+.span16 {
+  color: var(--color-darkgray-100);
+}
+.div16 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.dontMakeMeThinkContainer,
+.frameParent4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dontMakeMeThinkContainer {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameParent4 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-end;
+  padding: var(--padding-base) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.frameChild14 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.donNorman19882,
+.theDesignOf2 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.theDesignOf2 {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.donNorman19882 {
+  width: 101px;
+}
+.span17 {
+  color: var(--color-darkgray-100);
+}
+.div17 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.theDesignOfEveryContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild15,
+.rectangleParent11 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleParent11 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild15 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.jakeKnapp20002,
+.sprintHow2 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.sprintHow2 {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.jakeKnapp20002 {
+  width: 101px;
+}
+.span18 {
+  color: var(--color-darkgray-100);
+}
+.div18 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.sprintHowToSolveContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild16,
+.rectangleParent12 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleParent12 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild16 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.jeffGothelf20162,
+.learnUx2 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.learnUx2 {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.jeffGothelf20162 {
+  width: 101px;
+}
+.span19 {
+  color: var(--color-darkgray-100);
+}
+.div19 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.learnUxDesignGrContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild17,
+.rectangleParent13 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleParent13 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild17 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.steveKrug20005,
+.theRoadTo2 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.theRoadTo2 {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.steveKrug20005 {
+  width: 101px;
+}
+.span20 {
+  color: var(--color-darkgray-100);
+}
+.div20 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.theRoadToReactContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild18,
+.rectangleParent14 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleParent14 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild18 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.richDadPoor2 {
+  font-size: var(--body-small-size);
+}
+.richDadPoor2,
+.robertTkiyosaki19972 {
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.span21 {
+  color: var(--color-darkgray-100);
+}
+.div21 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.richDadPoorDadContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild19,
+.rectangleParent15 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleParent15 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild19 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.harryPotterAnd2,
+.jkRowling20022 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.harryPotterAnd2 {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+  white-space: nowrap;
+}
+.jkRowling20022 {
+  width: 101px;
+}
+.span22 {
+  color: var(--color-darkgray-100);
+}
+.div22 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.harryPotterAndTheContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameChild20,
+.rectangleParent16 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.rectangleParent16 {
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameChild20 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.kyleSimpson20142,
+.youDontKnow2 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.youDontKnow2 {
+  width: 130px;
+  font-size: var(--body-small-size);
+}
+.kyleSimpson20142 {
+  width: 101px;
+}
+.span23 {
+  color: var(--color-darkgray-100);
+}
+.div23 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.youDontKnowJsSContainer {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.frameParent3,
+.recommendedBookList2,
+.rectangleParent17,
+.youDontKnowJsSContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent17 {
+  align-self: stretch;
+  width: 160px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+}
+.frameParent3,
+.recommendedBookList2 {
+  max-width: 100%;
+}
+.recommendedBookList2 {
+  width: 1535px;
+  height: 260px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  flex-direction: row;
+  gap: var(--gap-20xl);
+  z-index: 1;
+  font-size: var(--font-size-3xs);
+  color: var(--color-dimgray);
+}
+.frameParent3 {
+  flex-direction: column;
+  padding: 0 var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+}
+.dataAggregatorIcon,
+.news {
+  position: relative;
+  max-width: 100%;
+}
+.news {
+  margin: 0;
+  width: 513px;
+  height: 34px;
+  font-size: inherit;
+  line-height: 128.52%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.dataAggregatorIcon {
+  height: 170px;
+  flex: 1;
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  object-fit: cover;
+}
+.dataAggregatorWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-8xs);
+}
+.mar2023,
+.theHinduNews {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.mar2023 {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.theHinduNews {
+  width: 101px;
+}
+.span24 {
+  color: var(--color-darkgray-100);
+}
+.circleCluster {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent5,
+.shapeStack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.shapeStack {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameParent5 {
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-base) var(--padding-mini) var(--padding-smi);
+  gap: var(--gap-xs);
+}
+.frameChild21 {
+  height: 170px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangleWrapper2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-8xs);
+}
+.mar20231,
+.toiNews {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.mar20231 {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.toiNews {
+  width: 101px;
+}
+.span25 {
+  color: var(--color-darkgray-100);
+}
+.div24 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent6,
+.mar2023Parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.mar2023Parent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameParent6 {
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-base) var(--padding-mini) var(--padding-smi);
+  gap: var(--gap-xs);
+}
+.frameChild22 {
+  height: 170px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangleWrapper3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-8xs);
+}
+.deccanCronicle,
+.mar20232 {
+  height: 14px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.mar20232 {
+  align-self: stretch;
+  font-size: var(--body-small-size);
+}
+.deccanCronicle {
+  width: 101px;
+}
+.span26 {
+  color: var(--color-darkgray-100);
+}
+.div25 {
+  width: 101px;
+  height: 11px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent7,
+.mar2023Group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.mar2023Group {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameParent7 {
+  border-radius: var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-base) var(--padding-mini) var(--padding-smi);
+  gap: var(--gap-xs);
+}
+.recommendedBookList3 {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+  grid-template-columns: repeat(3, minmax(120px, 1fr));
+  z-index: 1;
+  font-size: var(--font-size-3xs);
+  color: var(--color-dimgray);
+}
+.newsParent {
+  width: 558px;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+}
+.frameParent2,
+.newsParent,
+.recommendedBookListParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  gap: var(--gap-48xl);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  color: var(--color-gray-200);
+}
+.recommendedBookListParent {
+  width: 1535px;
+  height: 149px;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-34xl);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-dimgray);
+  font-family: var(--bold-16-24);
+}
+@media screen and (max-width: 975px) {
+  .journalsArticlesPaperPubParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 725px) {
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+  .recommendedBookList3 {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(120px, 208px));
+  }
+  .recommendedBookListParent {
+    height: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .academicBooks {
+    font-size: var(--font-size-xl);
+    line-height: 26px;
+  }
+  .showAll {
+    font-size: var(--bold-16-24-size);
+    line-height: 21px;
+  }
+  .journalsArticles {
+    font-size: var(--font-size-xl);
+    line-height: 26px;
+  }
+  .showAll1 {
+    font-size: var(--bold-16-24-size);
+    line-height: 21px;
+  }
+  .news {
+    font-size: var(--font-size-xl);
+    line-height: 26px;
+  }
+  .recommendedBookList3 {
+    grid-template-columns: minmax(120px, 1fr);
+  }
+}

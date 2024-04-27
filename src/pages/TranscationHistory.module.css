@@ -1,0 +1,3234 @@
+.calendarIcon {
+  margin-top: -137.89999999999964px;
+  margin-right: -2070.5px;
+  margin-bottom: 65.89999999999964px;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.today {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 63px;
+}
+.filterSelectors,
+.tabbar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.filterSelectors {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-tomato-100);
+  border: 1px solid var(--color-aliceblue);
+  overflow: hidden;
+  padding: var(--padding-7xs) var(--padding-2xs);
+  white-space: nowrap;
+}
+.tabbar {
+  width: 91px;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.transactionCardBg {
+  height: 86px;
+  width: 358px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--light-mode-white-50);
+  border: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: none;
+  z-index: 1;
+}
+.transactionTypesIcons {
+  width: 52px;
+  height: 52px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bordertop {
+  width: 112px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.transactionName {
+  align-self: stretch;
+  position: relative;
+  line-height: 15px;
+  z-index: 1;
+}
+.nA2,
+.transactionId {
+  position: relative;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 1;
+}
+.nA2 {
+  color: var(--color-gray-900);
+  min-width: 86px;
+}
+.nA,
+.nA1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nA1 {
+  gap: var(--gap-12xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.nA {
+  width: 183px;
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+  margin-left: -50px;
+}
+.amount1 {
+  width: 100px;
+  position: relative;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  z-index: 1;
+  
+}
+.yourQRTab {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-orange);
+}
+.pending {
+  position: relative;
+  display: inline-block;
+  min-width: 38px;
+  z-index: 1;
+}
+.statusPending {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-8xs);
+}
+.transactionStatuses {
+  width: 56px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+  font-size: var(--font-size-3xs);
+  color: var(--color-sandybrown-100);
+}
+.transactionDate {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.transactionTime1 {
+  position: relative;
+  display: inline-block;
+  min-width: 43px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.borderedTop,
+.transactionTime {
+  display: flex;
+  justify-content: flex-start;
+}
+.borderedTop {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-6xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.transactionTime {
+  width: 128px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-7xs);
+  margin-left: -50px;
+  text-align: right;
+}
+.transaction1,
+.transactionCardBg1 {
+  border-radius: var(--br-mini);
+  background-color: var(--light-mode-white-50);
+  border: 1px solid var(--color-aliceblue);
+}
+.transaction1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-mini);
+}
+.transactionCardBg1 {
+  height: 101px;
+  width: 358px;
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.transactionTypesIcons1 {
+  height: 52px;
+  width: 52px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.secondaryTransactionName,
+.transactionName1 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.transactionName1 {
+  line-height: 15px;
+}
+.secondaryTransactionName {
+  font-size: var(--body-large-size);
+}
+.nA4,
+.transactionId1 {
+  position: relative;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 1;
+}
+.nA4 {
+  color: var(--color-gray-900);
+  min-width: 86px;
+}
+.nA3,
+.transactionNameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nA3 {
+  gap: var(--gap-12xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.transactionNameParent {
+  flex: 1;
+  gap: var(--gap-8xs);
+}
+.amount2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 15px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.nA5 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-mediumspringgreen);
+}
+.confirmed {
+  position: relative;
+  display: inline-block;
+  min-width: 46px;
+  z-index: 1;
+}
+.statusConfirmed1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-8xs);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.transactionStatuses1 {
+  width: 56px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-mediumseagreen);
+}
+.transactionDate1,
+.transactionTime2 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.transactionTime2 {
+  white-space: nowrap;
+}
+.nA6 {
+  width: 78px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-12xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.amountParent,
+.frameParent,
+.nA6 {
+  display: flex;
+  justify-content: flex-start;
+}
+.amountParent {
+  width: 100px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-7xs-5);
+  margin-left: -22px;
+  text-align: right;
+  
+}
+.frameParent {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  min-width: 170px;
+}
+.transaction2,
+.transactionCardBg2 {
+  border-radius: var(--br-mini);
+  background-color: var(--light-mode-white-50);
+  border: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.transaction2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-mini);
+  gap: var(--gap-3xs);
+}
+.transactionCardBg2 {
+  height: 101px;
+  width: 358px;
+  position: relative;
+  display: none;
+}
+.transactionTypesIcons2 {
+  height: 52px;
+  width: 52px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.amount3,
+.transactionName2 {
+  position: relative;
+  line-height: 15px;
+  z-index: 1;
+}
+.amount3 {
+  width: 78px;
+  display: flex;
+  text-align: right;
+  align-items: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.transactionNameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.secondaryTransactionName1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-large-size);
+  z-index: 1;
+}
+.nA7,
+.transactionId2 {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.transactionId2 {
+  color: var(--color-gray-1000);
+  min-width: 75px;
+}
+.nA7 {
+  min-width: 86px;
+}
+.secondaryTransactionNameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.nA8 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-mediumspringgreen);
+}
+.confirmed1 {
+  position: relative;
+  display: inline-block;
+  min-width: 46px;
+  z-index: 1;
+}
+.statusConfirmed2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-8xs);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.transactionStatuses2 {
+  width: 56px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.transactionDate2,
+.transactionTime3 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.transactionTime3 {
+  white-space: nowrap;
+}
+.nA9,
+.transactionStatusesParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.nA9 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-12xs);
+  text-align: right;
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.transactionStatusesParent {
+  width: 78px;
+  align-items: flex-end;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-3xs);
+  color: var(--color-mediumseagreen);
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  font-size: var(--body-small-size);
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+  min-width: 170px;
+}
+.transaction3,
+.transactionCardBg3 {
+  border-radius: var(--br-mini);
+  background-color: var(--light-mode-white-50);
+  border: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.transaction3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-mini);
+  gap: var(--gap-3xs);
+}
+.transactionCardBg3 {
+  height: 86px;
+  width: 358px;
+  position: relative;
+  display: none;
+  z-index: 1;
+}
+.transactionTypesIcons3 {
+  height: 52px;
+  width: 52px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.transactionName3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 15px;
+  z-index: 1;
+}
+.nA11,
+.transactionId3 {
+  position: relative;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 1;
+}
+.nA11 {
+  color: var(--color-gray-900);
+  min-width: 86px;
+}
+.nA10,
+.tabs,
+.transactionTypesIconsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nA10 {
+  gap: var(--gap-12xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.tabs,
+.transactionTypesIconsParent {
+  flex: 1;
+  gap: var(--gap-3xs);
+}
+.transactionTypesIconsParent {
+  flex-direction: row;
+}
+.amount4 {
+  width: 100px;
+  position: relative;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.statusConfirmedChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-mediumspringgreen);
+}
+.confirmed2 {
+  position: relative;
+  display: inline-block;
+  min-width: 46px;
+  z-index: 1;
+}
+.statusConfirmed3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-8xs);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.transactionStatuses3 {
+  width: 56px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-mediumseagreen);
+}
+.transactionDate3 {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.transactionTime4 {
+  position: relative;
+  display: inline-block;
+  min-width: 43px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.amountGroup,
+.nA12 {
+  display: flex;
+  justify-content: flex-start;
+}
+.nA12 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-6xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.amountGroup {
+  width: 128px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-7xs);
+  margin-left: -50px;
+  text-align: right;
+}
+.transaction4,
+.transactionCardBg4 {
+  border-radius: var(--br-mini);
+  background-color: var(--light-mode-white-50);
+  border: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.transaction4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-mini);
+}
+.transactionCardBg4 {
+  height: 101px;
+  width: 358px;
+  position: relative;
+  display: none;
+  z-index: 1;
+}
+.transactionTypesIcons4 {
+  height: 52px;
+  width: 52px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.secondaryTransactionName2,
+.transactionName4 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.transactionName4 {
+  line-height: 15px;
+}
+.secondaryTransactionName2 {
+  font-size: var(--body-large-size);
+}
+.nA14,
+.transactionId4 {
+  position: relative;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 1;
+}
+.nA14 {
+  color: var(--color-gray-900);
+  min-width: 86px;
+}
+.nA13,
+.transactionNameContainer,
+.transactionTypesIconsGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nA13 {
+  gap: var(--gap-12xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.transactionNameContainer,
+.transactionTypesIconsGroup {
+  flex: 1;
+  gap: var(--gap-8xs);
+}
+.transactionTypesIconsGroup {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  min-width: 159px;
+}
+.amount5 {
+  align-self: stretch;
+  position: relative;
+  line-height: 15px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.statusDeclinedChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-tomato-900);
+}
+.canceled {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  z-index: 1;
+}
+.statusDeclined {
+  position: absolute;
+  top: 0;
+  left: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-9xs) var(--padding-12xs)
+    var(--padding-8xs);
+}
+.transactionStatuses4 {
+  width: 56px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-crimson-100);
+}
+.transactionDate4,
+.transactionTime5 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.transactionTime5 {
+  white-space: nowrap;
+}
+.amountContainer,
+.transactionDateParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+ 
+}
+.transactionDateParent {
+  width: 78px;
+  align-items: flex-start;
+  gap: var(--gap-12xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.amountContainer {
+  width: 89px;
+  align-items: flex-end;
+  gap: var(--gap-7xs-5);
+  margin-left: -11px;
+  text-align: right;
+ 
+}
+.transaction5,
+.yourQR {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.transaction5 {
+  border-radius: var(--br-mini);
+  background-color: var(--light-mode-white-50);
+  border: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: var(--padding-smi) var(--padding-mini);
+  max-width: 100%;
+  row-gap: 20px;
+}
+.yourQR {
+  flex-direction: column;
+  gap: var(--gap-mini);
+  font-size: var(--bold-16-24-size);
+}
+.amount,
+.amountWrapper,
+.yourQR {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.amount {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.amountWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-smi) 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+/* .blurredBg,
+.tabBarShadow {
+  position: absolute;
+  width: 100%;
+  left: 0;
+} */
+.tabBarShadow {
+  height: 100%;
+  top: 0;
+  right: 1.03%;
+  bottom: 0;
+  /* filter: blur(30px); */
+  border-radius: var(--br-77xl-5);
+  background-color: var(--color-cornflowerblue);
+}
+/* .blurredBg {
+  height: 89.89%;
+  top: 8.99%;
+  right: 0;
+  bottom: 1.12%;
+  backdrop-filter: blur(5px);
+  background-color: var(--color-gray-1100);
+  z-index: 1;
+} */
+.homeBg {
+  width: 98px;
+  height: 80px;
+  position: relative;
+  background-color: var(--color-gray-1200);
+  display: none;
+}
+.homeIcon {
+  height: 14px;
+  width: 13.3px;
+  position: relative;
+  z-index: 1;
+}
+.moreUnselected {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-4xs-8);
+}
+.home {
+  position: relative;
+  display: inline-block;
+  min-width: 32px;
+  z-index: 1;
+}
+.homeUnselected {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-14xl) var(--padding-3xl);
+  gap: var(--gap-4xs);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 4;
+  color: var(--color-tomato-1000);
+}
+.transfersBg {
+  width: 98px;
+  height: 80px;
+  position: relative;
+  background-color: var(--color-gray-1200);
+  display: none;
+}
+.transfersIcon {
+  height: 14.6px;
+  width: 18.4px;
+  position: relative;
+  z-index: 1;
+}
+.transfersIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xl-8) 0 var(--padding-6xl);
+}
+.transactions {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+  z-index: 1;
+}
+.transfersSelected {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-mid) var(--padding-3xl)
+    var(--padding-mini);
+  gap: var(--gap-4xs-4);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 3;
+  margin-left: -1px;
+}
+.yourQrBg {
+  width: 98px;
+  height: 80px;
+  position: relative;
+  background-color: var(--color-gray-1200);
+  display: none;
+}
+.qrIcon {
+  height: 17px;
+  width: 20.8px;
+  position: relative;
+  z-index: 1;
+}
+.qrIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xs-5) 0 var(--padding-xs);
+}
+.yourQr {
+  position: relative;
+  display: inline-block;
+  min-width: 43px;
+  z-index: 1;
+}
+.yourQrUnselected {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-9xl) var(--padding-3xl)
+    var(--padding-8xl);
+  gap: var(--gap-5xs);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 2;
+  margin-left: -1px;
+}
+.moreBg {
+  width: 98px;
+  height: 80px;
+  position: relative;
+  background-color: var(--color-gray-1200);
+  display: none;
+}
+.moreIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  z-index: 1;
+}
+.moreIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+}
+.more {
+  position: relative;
+  display: inline-block;
+  min-width: 28px;
+  z-index: 1;
+}
+.moreUnselected1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-16xl) var(--padding-3xl);
+  gap: var(--gap-6xs);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  margin-left: -1px;
+}
+.borderTop,
+.tabs1 {
+  position: absolute;
+  left: 0;
+}
+.tabs1 {
+  height: 89.89%;
+  width: 100%;
+  top: 8.99%;
+  right: 0.26%;
+  bottom: 1.12%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+  z-index: 2;
+}
+.borderTop {
+  height: 1.12%;
+  width: 100.26%;
+  top: 10.11%;
+  right: -0.26%;
+  bottom: 88.76%;
+  border-top: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  z-index: 5;
+}
+.tabBar {
+  align-self: stretch;
+  height: 89px;
+  position: relative;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--body-small-size);
+  color: var(--color-tomato-100);
+}
+.backArrowIcon {
+  position: absolute;
+  top: 32.5px;
+  left: 21px;
+  width: 7.3px;
+  height: 7.1px;
+  display: none;
+}
+.div,
+.search {
+  font-weight: 600;
+}
+.search {
+  position: absolute;
+  top: 30px;
+  left: 32px;
+  letter-spacing: -0.02em;
+  display: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 66px;
+  height: 12px;
+}
+.div {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.04em;
+}
+.locationServicesActiveWit {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.time {
+  position: absolute;
+  top: 8px;
+  left: calc(50% - 17.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xs);
+  font-size: var(--font-size-mid);
+}
+.leftArea,
+.notchArea {
+  height: 44px;
+  position: relative;
+}
+.leftArea {
+  flex: 1;
+  overflow: hidden;
+  min-width: 77px;
+}
+.notchArea {
+  width: 250px;
+  flex-shrink: 0;
+}
+.bar1,
+.bar2,
+.bar3,
+.bar4 {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: calc(50% + 6.4px);
+  border-radius: var(--br-12xs);
+  background-color: var(--color-black);
+  width: 3.2px;
+  height: 12px;
+}
+.bar1,
+.bar2,
+.bar3 {
+  top: calc(50% - 3.6px);
+  left: calc(50% + 1.1px);
+  height: 9.6px;
+}
+.bar1,
+.bar2 {
+  top: calc(50% - 1px);
+  left: calc(50% - 4.2px);
+  height: 7px;
+}
+.bar1 {
+  top: calc(50% + 1.4px);
+  left: calc(50% - 9.6px);
+  height: 4.6px;
+}
+.networkWifiFull,
+.sim1SingleSim {
+  height: 14px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.networkWifiFull {
+  height: 12px;
+}
+.batteryFullUncharged {
+  align-self: stretch;
+  width: 28px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 14px;
+}
+.autoLayout {
+  position: absolute;
+  top: calc(50% - 7px);
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-10xs);
+  width: 100%;
+  height: 100%;
+}
+.statusArea {
+  position: absolute;
+  top: calc(50% - 4px);
+  left: calc(50% - 38px);
+  width: 74px;
+  height: 14px;
+}
+.privacyIndicatorNone {
+  position: absolute;
+  top: 6px;
+  left: 26px;
+  width: 6px;
+  height: 6px;
+}
+.rightArea {
+  height: 44px;
+  width: 118px;
+  position: relative;
+  flex-shrink: 0;
+}
+.iphoneWithNotch {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  row-gap: 20px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+  font-family: var(--font-aboreto);
+}
+.statusConfirmed {
+  position: absolute;
+  top: 215px;
+  left: 774px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  width: 390px;
+  height: 800px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-34xl) var(--padding-11xs) var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--body-large-size);
+  color: var(--color-gray-900);
+  font-family: var(--font-proxima-nova);
+}
+@media screen and (max-width: 450px) {
+  .amountContainer {
+    margin-left: 0;
+    
+  }
+  .tabs1 {
+    flex-wrap: wrap;
+  }
+  .tabBar {
+    min-height: 89;
+  }
+  .statusConfirmed,
+  .tabBar {
+    height: auto;
+  }
+}
+
+.calendarIcon {
+  margin-top: -137.89999999999964px;
+  margin-right: -2070.5px;
+  margin-bottom: 65.89999999999964px;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.today {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 63px;
+}
+.filterSelectors,
+.tabbar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.filterSelectors {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-tomato-100);
+  border: 1px solid var(--color-aliceblue);
+  overflow: hidden;
+  padding: var(--padding-7xs) var(--padding-2xs);
+  white-space: nowrap;
+}
+.tabbar {
+  width: 91px;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.transactionCardBg {
+  height: 86px;
+  width: 358px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--light-mode-white-50);
+  border: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: none;
+  z-index: 1;
+}
+.transactionTypesIcons {
+  width: 52px;
+  height: 52px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bordertop {
+  width: 112px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.transactionName {
+  align-self: stretch;
+  position: relative;
+  line-height: 15px;
+  z-index: 1;
+}
+.nA2,
+.transactionId {
+  position: relative;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 1;
+}
+.nA2 {
+  color: var(--color-gray-900);
+  min-width: 86px;
+}
+.nA,
+.nA1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nA1 {
+  gap: var(--gap-12xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.nA {
+  width: 183px;
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+  margin-left: -50px;
+}
+.amount1 {
+  width: 100px;
+  position: relative;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.yourQRTab {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-orange);
+}
+.pending {
+  position: relative;
+  display: inline-block;
+  min-width: 38px;
+  z-index: 1;
+}
+.statusPending {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-8xs);
+}
+.transactionStatuses {
+  width: 56px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+  font-size: var(--font-size-3xs);
+  color: var(--color-sandybrown-100);
+}
+.transactionDate {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.transactionTime1 {
+  position: relative;
+  display: inline-block;
+  min-width: 43px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.borderedTop,
+.transactionTime {
+  display: flex;
+  justify-content: flex-start;
+}
+.borderedTop {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-6xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.transactionTime {
+  width: 128px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-7xs);
+  margin-left: -50px;
+  text-align: right;
+}
+.transaction1,
+.transactionCardBg1 {
+  border-radius: var(--br-mini);
+  background-color: var(--light-mode-white-50);
+  border: 1px solid var(--color-aliceblue);
+}
+.transaction1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-mini);
+}
+.transactionCardBg1 {
+  height: 101px;
+  width: 358px;
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.transactionTypesIcons1 {
+  height: 52px;
+  width: 52px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.secondaryTransactionName,
+.transactionName1 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.transactionName1 {
+  line-height: 15px;
+}
+.secondaryTransactionName {
+  font-size: var(--body-large-size);
+}
+.nA4,
+.transactionId1 {
+  position: relative;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 1;
+}
+.nA4 {
+  color: var(--color-gray-900);
+  min-width: 86px;
+}
+.nA3,
+.transactionNameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nA3 {
+  gap: var(--gap-12xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.transactionNameParent {
+  flex: 1;
+  gap: var(--gap-8xs);
+}
+.amount2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 15px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.nA5 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-mediumspringgreen);
+}
+.confirmed {
+  position: relative;
+  display: inline-block;
+  min-width: 46px;
+  z-index: 1;
+}
+.statusConfirmed1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-8xs);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.transactionStatuses1 {
+  width: 56px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-mediumseagreen);
+}
+.transactionDate1,
+.transactionTime2 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.transactionTime2 {
+  white-space: nowrap;
+}
+.nA6 {
+  width: 78px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-12xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.amountParent,
+.frameParent,
+.nA6 {
+  display: flex;
+  justify-content: flex-start;
+}
+.amountParent {
+  width: 100px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-7xs-5);
+  margin-left: -22px;
+  text-align: right;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  min-width: 170px;
+}
+.transaction2,
+.transactionCardBg2 {
+  border-radius: var(--br-mini);
+  background-color: var(--light-mode-white-50);
+  border: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.transaction2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-mini);
+  gap: var(--gap-3xs);
+}
+.transactionCardBg2 {
+  height: 101px;
+  width: 358px;
+  position: relative;
+  display: none;
+}
+.transactionTypesIcons2 {
+  height: 52px;
+  width: 52px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.amount3,
+.transactionName2 {
+  position: relative;
+  line-height: 15px;
+  z-index: 1;
+}
+.amount3 {
+  width: 78px;
+  display: flex;
+  text-align: right;
+  align-items: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.transactionNameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.secondaryTransactionName1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-large-size);
+  z-index: 1;
+}
+.nA7,
+.transactionId2 {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.transactionId2 {
+  color: var(--color-gray-1000);
+  min-width: 75px;
+}
+.nA7 {
+  min-width: 86px;
+}
+.secondaryTransactionNameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.nA8 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-mediumspringgreen);
+}
+.confirmed1 {
+  position: relative;
+  display: inline-block;
+  min-width: 46px;
+  z-index: 1;
+}
+.statusConfirmed2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-8xs);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.transactionStatuses2 {
+  width: 56px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.transactionDate2,
+.transactionTime3 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.transactionTime3 {
+  white-space: nowrap;
+}
+.nA9,
+.transactionStatusesParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.nA9 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-12xs);
+  text-align: right;
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.transactionStatusesParent {
+  width: 78px;
+  align-items: flex-end;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-3xs);
+  color: var(--color-mediumseagreen);
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  font-size: var(--body-small-size);
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+  min-width: 170px;
+}
+.transaction3,
+.transactionCardBg3 {
+  border-radius: var(--br-mini);
+  background-color: var(--light-mode-white-50);
+  border: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.transaction3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-mini);
+  gap: var(--gap-3xs);
+}
+.transactionCardBg3 {
+  height: 86px;
+  width: 358px;
+  position: relative;
+  display: none;
+  z-index: 1;
+}
+.transactionTypesIcons3 {
+  height: 52px;
+  width: 52px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.transactionName3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 15px;
+  z-index: 1;
+}
+.nA11,
+.transactionId3 {
+  position: relative;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 1;
+}
+.nA11 {
+  color: var(--color-gray-900);
+  min-width: 86px;
+}
+.nA10,
+.tabs,
+.transactionTypesIconsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nA10 {
+  gap: var(--gap-12xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.tabs,
+.transactionTypesIconsParent {
+  flex: 1;
+  gap: var(--gap-3xs);
+}
+.transactionTypesIconsParent {
+  flex-direction: row;
+}
+.amount4 {
+  width: 100px;
+  position: relative;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.statusConfirmedChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-mediumspringgreen);
+}
+.confirmed2 {
+  position: relative;
+  display: inline-block;
+  min-width: 46px;
+  z-index: 1;
+}
+.statusConfirmed3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-8xs);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.transactionStatuses3 {
+  width: 56px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-mediumseagreen);
+}
+.transactionDate3 {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.transactionTime4 {
+  position: relative;
+  display: inline-block;
+  min-width: 43px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.amountGroup,
+.nA12 {
+  display: flex;
+  justify-content: flex-start;
+}
+.nA12 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-6xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.amountGroup {
+  width: 128px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-7xs);
+  margin-left: -50px;
+  text-align: right;
+}
+.transaction4,
+.transactionCardBg4 {
+  border-radius: var(--br-mini);
+  background-color: var(--light-mode-white-50);
+  border: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.transaction4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-mini);
+}
+.transactionCardBg4 {
+  height: 101px;
+  width: 358px;
+  position: relative;
+  display: none;
+  z-index: 1;
+}
+.transactionTypesIcons4 {
+  height: 52px;
+  width: 52px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.secondaryTransactionName2,
+.transactionName4 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.transactionName4 {
+  line-height: 15px;
+}
+.secondaryTransactionName2 {
+  font-size: var(--body-large-size);
+}
+.nA14,
+.transactionId4 {
+  position: relative;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 1;
+}
+.nA14 {
+  color: var(--color-gray-900);
+  min-width: 86px;
+}
+.nA13,
+.transactionNameContainer,
+.transactionTypesIconsGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nA13 {
+  gap: var(--gap-12xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.transactionNameContainer,
+.transactionTypesIconsGroup {
+  flex: 1;
+  gap: var(--gap-8xs);
+}
+.transactionTypesIconsGroup {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  min-width: 159px;
+}
+.amount5 {
+  align-self: stretch;
+  position: relative;
+  line-height: 15px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.statusDeclinedChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-tomato-900);
+}
+.canceled {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  z-index: 1;
+}
+.statusDeclined {
+  position: absolute;
+  top: 0;
+  left: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-9xs) var(--padding-12xs)
+    var(--padding-8xs);
+}
+.transactionStatuses4 {
+  width: 56px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-crimson-100);
+}
+.transactionDate4,
+.transactionTime5 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.transactionTime5 {
+  white-space: nowrap;
+}
+.amountContainer,
+.transactionDateParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.transactionDateParent {
+  width: 78px;
+  align-items: flex-start;
+  gap: var(--gap-12xs);
+  font-size: var(--body-small-size);
+  color: var(--color-gray-1000);
+}
+.amountContainer {
+  width: 89px;
+  align-items: flex-end;
+  gap: var(--gap-7xs-5);
+  margin-left: -11px;
+  text-align: right;
+  
+}
+.transaction5,
+.yourQR {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.transaction5 {
+  border-radius: var(--br-mini);
+  background-color: var(--light-mode-white-50);
+  border: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: var(--padding-smi) var(--padding-mini);
+  max-width: 100%;
+  row-gap: 20px;
+}
+.yourQR {
+  flex-direction: column;
+  gap: var(--gap-mini);
+  font-size: var(--bold-16-24-size);
+}
+.amount,
+.amountWrapper,
+.yourQR {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+ 
+}
+.amount {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  
+}
+.amountWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-smi) 0 var(--padding-mini);
+  box-sizing: border-box;
+  background-color: #F3F3F7;
+  border-radius: 5% 5% 0 0  ;
+  width: 190%;
+}
+
+.tabBarShadow {
+  height: 100%;
+  top: 0;
+  right: 1.03%;
+  bottom: 0px;
+  border-radius: var(--br-77xl-5);
+  background-color: var(--color-cornflowerblue);
+  background-color: #F3F3F7;
+  border-radius: 0 0 10% 10%;
+
+}
+/* .blurredBg {
+  height: 89.89%;
+  top: 8.99%;
+  right: 0;
+  bottom: 1.12%;
+  backdrop-filter: blur(5px);
+  background-color: var(--color-gray-1100);
+  z-index: 1;
+} */
+.homeBg {
+  width: 98px;
+  height: 80px;
+  position: relative;
+  background-color: var(--color-gray-1200);
+  display: none;
+}
+.homeIcon {
+  height: 14px;
+  width: 13.3px;
+  position: relative;
+  z-index: 1;
+}
+.moreUnselected {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-4xs-8);
+}
+.home {
+  position: relative;
+  display: inline-block;
+  min-width: 32px;
+  z-index: 1;
+}
+.homeUnselected {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-14xl) var(--padding-3xl);
+  gap: var(--gap-4xs);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 4;
+  color: var(--color-tomato-1000);
+}
+.transfersBg {
+  width: 98px;
+  height: 80px;
+  position: relative;
+  background-color: var(--color-gray-1200);
+  display: none;
+}
+.transfersIcon {
+  height: 14.6px;
+  width: 18.4px;
+  position: relative;
+  z-index: 1;
+}
+.transfersIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xl-8) 0 var(--padding-6xl);
+}
+.transactions {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+  z-index: 1;
+}
+.transfersSelected {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-mid) var(--padding-3xl)
+    var(--padding-mini);
+  gap: var(--gap-4xs-4);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 3;
+  margin-left: -1px;
+}
+.yourQrBg {
+  width: 98px;
+  height: 80px;
+  position: relative;
+  background-color: var(--color-gray-1200);
+  display: none;
+}
+.qrIcon {
+  height: 17px;
+  width: 20.8px;
+  position: relative;
+  z-index: 1;
+}
+.qrIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xs-5) 0 var(--padding-xs);
+}
+.yourQr {
+  position: relative;
+  display: inline-block;
+  min-width: 43px;
+  z-index: 1;
+}
+.yourQrUnselected {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-9xl) var(--padding-3xl)
+    var(--padding-8xl);
+  gap: var(--gap-5xs);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 2;
+  margin-left: -1px;
+}
+.moreBg {
+  width: 98px;
+  height: 80px;
+  position: relative;
+  background-color: var(--color-gray-1200);
+  display: none;
+}
+.moreIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  z-index: 1;
+}
+.moreIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+}
+.more {
+  position: relative;
+  display: inline-block;
+  min-width: 28px;
+  z-index: 1;
+}
+.moreUnselected1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-16xl) var(--padding-3xl);
+  gap: var(--gap-6xs);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  margin-left: -1px;
+}
+.borderTop,
+.tabs1 {
+  position: absolute;
+  left: 0;
+}
+.tabs1 {
+  height: 89.89%;
+  width: 100%;
+  top: 8.99%;
+  right: 0.26%;
+  bottom: 1.12%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+  z-index: 2;
+}
+.borderTop {
+  height: 1.12%;
+  width: 100.26%;
+  top: 10.11%;
+  right: -0.26%;
+  bottom: 88.76%;
+  border-top: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  z-index: 5;
+}
+.tabBar {
+  align-self: stretch;
+  height: 89px;
+  position: relative;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--body-small-size);
+  color: var(--color-tomato-100);
+}
+.backArrowIcon {
+  position: absolute;
+  top: 32.5px;
+  left: 21px;
+  width: 7.3px;
+  height: 7.1px;
+  display: none;
+}
+.div,
+.search {
+  font-weight: 600;
+}
+.search {
+  position: absolute;
+  top: 30px;
+  left: 32px;
+  letter-spacing: -0.02em;
+  display: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 66px;
+  height: 12px;
+}
+.div {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.04em;
+}
+.locationServicesActiveWit {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.time {
+  position: absolute;
+  top: 8px;
+  left: calc(50% - 17.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xs);
+  font-size: var(--font-size-mid);
+}
+.leftArea,
+.notchArea {
+  height: 44px;
+  position: relative;
+}
+.leftArea {
+  flex: 1;
+  overflow: hidden;
+  min-width: 77px;
+}
+.notchArea {
+  width: 250px;
+  flex-shrink: 0;
+}
+.bar1,
+.bar2,
+.bar3,
+.bar4 {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: calc(50% + 6.4px);
+  border-radius: var(--br-12xs);
+  background-color: var(--color-black);
+  width: 3.2px;
+  height: 12px;
+}
+.bar1,
+.bar2,
+.bar3 {
+  top: calc(50% - 3.6px);
+  left: calc(50% + 1.1px);
+  height: 9.6px;
+}
+.bar1,
+.bar2 {
+  top: calc(50% - 1px);
+  left: calc(50% - 4.2px);
+  height: 7px;
+}
+.bar1 {
+  top: calc(50% + 1.4px);
+  left: calc(50% - 9.6px);
+  height: 4.6px;
+}
+.networkWifiFull,
+.sim1SingleSim {
+  height: 14px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.networkWifiFull {
+  height: 12px;
+}
+.batteryFullUncharged {
+  align-self: stretch;
+  width: 28px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 14px;
+}
+.autoLayout {
+  position: absolute;
+  top: calc(50% - 7px);
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-10xs);
+  width: 100%;
+  height: 100%;
+}
+.statusArea {
+  position: absolute;
+  top: calc(50% - 4px);
+  left: calc(50% - 38px);
+  width: 74px;
+  height: 14px;
+}
+.privacyIndicatorNone {
+  position: absolute;
+  top: 6px;
+  left: 26px;
+  width: 6px;
+  height: 6px;
+}
+.rightArea {
+  height: 44px;
+  width: 118px;
+  position: relative;
+  flex-shrink: 0;
+}
+.iphoneWithNotch {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  row-gap: 20px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+  font-family: var(--font-aboreto);
+}
+.statusConfirmed {
+  position: absolute;
+  top: 215px;
+  left: 774px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  width: 390px;
+  height: 800px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-34xl) var(--padding-11xs) var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--body-large-size);
+  color: var(--color-gray-900);
+  font-family: var(--font-proxima-nova);
+}
+@media screen and (max-width: 450px) {
+  .amountContainer {
+    margin-left: 0;
+   
+  }
+  .tabs1 {
+    flex-wrap: wrap;
+  }
+  .tabBar {
+    min-height: 89;
+  }
+  .statusConfirmed,
+  .tabBar {
+    height: auto;
+  }
+}
+
+.bgVectorIcon {
+  position: absolute;
+  top: -66.3px;
+  left: -37.3px;
+  width: 1994.3px;
+  height: 1143.5px;
+}
+.frameChild,
+.frameItem {
+  position: relative;
+  display: none;
+}
+.frameChild {
+  align-self: stretch;
+  width: 541px;
+  border-radius: var(--br-21xl);
+  background-color: var(--light-mode-white-50);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+}
+.frameItem {
+  height: 69px;
+  width: 102px;
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  background-color: var(--color-whitesmoke-100);
+}
+.all,
+.fRAMEChild {
+  position: relative;
+  z-index: 1;
+}
+.all {
+  height: 33.8px;
+  line-height: 128.52%;
+  display: inline-block;
+  min-width: 27px;
+}
+.fRAMEChild {
+  width: 17px;
+  height: 12.7px;
+  border-radius: var(--br-12xs);
+  object-fit: contain;
+}
+.fRAME1,
+.rectangleGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs-3) 0 0;
+}
+.rectangleGroup {
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  padding: var(--padding-base-9) var(--padding-2xs) var(--padding-lg-3)
+    var(--padding-18xl);
+  gap: var(--gap-3xs);
+  z-index: 3;
+}
+.search {
+  align-self: stretch;
+  height: 33.8px;
+  position: relative;
+  line-height: 128.52%;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.fRAME2,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fRAME2 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-base-9) 0 0;
+  color: var(--color-silver);
+}
+.frameParent {
+  width: 352px;
+  flex-direction: row;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+}
+.searchIcon {
+  width: 20px;
+  height: 28.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.fRAME5 {
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-8) 0 0;
+  box-sizing: border-box;
+}
+.barcodeScannerIcon,
+.lINE {
+  position: relative;
+  z-index: 3;
+}
+.lINE {
+  height: 47.5px;
+  width: 1px;
+  border-right: 1px solid var(--color-gainsboro-600);
+  box-sizing: border-box;
+}
+.barcodeScannerIcon {
+  width: 20px;
+  height: 28.2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fRAME6 {
+  width: 20px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-4) 0 0;
+  box-sizing: border-box;
+}
+.fRAME3,
+.fRAME4,
+.fRAME6 {
+  display: flex;
+  align-items: flex-start;
+}
+.fRAME4 {
+  height: 46.5px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-5);
+}
+.fRAME3 {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-xs-2);
+}
+.fRAMEInner,
+.rectangleParent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  background-color: var(--light-mode-white-50);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--padding-mid) 0 0;
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.fRAMEInner {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-8xl) 0 0;
+}
+.langChild,
+.translateIcon {
+  position: relative;
+  z-index: 1;
+}
+.langChild {
+  height: 47px;
+  width: 170px;
+  border-radius: var(--br-11xl);
+  background-color: var(--light-mode-white-50);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.translateIcon {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fRAME7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-6xs) 0 0;
+}
+.lang1 {
+  margin-left: -5px;
+  width: 91px;
+  height: 22.1px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 128.52%;
+  font-family: var(--bold-16-24);
+  color: var(--color-dimgray);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.gROUP {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  margin-left: -7px;
+}
+.fRAME8 {
+  width: 17px;
+  height: 9px;
+  position: relative;
+  border-radius: var(--br-12xs);
+  object-fit: contain;
+  z-index: 1;
+}
+.pOLYGON {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  margin-left: -7px;
+}
+.frameInner,
+.lang {
+  background-color: var(--light-mode-white-50);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+.lang {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-6xl) var(--padding-smi-9);
+  width: 170px;
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frameInner {
+  height: 46px;
+  width: 455px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  display: none;
+  max-width: 100%;
+}
+.hrs,
+.timeIcon {
+  position: relative;
+  z-index: 1;
+}
+.timeIcon {
+  height: 19px;
+  width: 19px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 19px;
+}
+.hrs {
+  flex: 1;
+  letter-spacing: -0.04em;
+  line-height: 128.52%;
+  white-space: nowrap;
+}
+.fRAME10 {
+  width: 133px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.mar2023,
+.vectorIcon {
+  position: relative;
+  z-index: 1;
+}
+.vectorIcon {
+  height: 19px;
+  width: 19px;
+  min-height: 19px;
+}
+.mar2023 {
+  flex: 1;
+  letter-spacing: -0.04em;
+  line-height: 128.52%;
+}
+.fRAME11 {
+  width: 149px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.fRAME9,
+.rectangleContainer {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleContainer {
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  background-color: var(--light-mode-white-50);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-33xl) var(--padding-smi)
+    var(--padding-38xl);
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.fRAME9 {
+  width: 470px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-mini) 0 0;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-abril-fatface);
+}
+.profileAccountChild {
+  height: 50px;
+  width: 203px;
+  position: relative;
+  border-radius: var(--br-14xl);
+  background-color: var(--light-mode-white-50);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.tEXT {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.fRAME13 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 0;
+}
+.kenson {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+  z-index: 1;
+}
+.fRAME14 {
+  width: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+}
+.tEXT1 {
+  width: 17px;
+  height: 9px;
+  position: relative;
+  border-radius: var(--br-12xs);
+  object-fit: contain;
+  z-index: 1;
+}
+.fRAME15 {
+  flex-direction: column;
+  padding: var(--padding-lg) 0 0;
+}
+.fRAME,
+.fRAME12,
+.fRAME15,
+.profileAccount {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profileAccount {
+  align-self: stretch;
+  border-radius: var(--br-14xl);
+  background-color: var(--light-mode-white-50);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  padding: var(--padding-10xs) var(--padding-10xs) var(--padding-11xs);
+  z-index: 2;
+}
+.fRAME,
+.fRAME12 {
+  width: 203px;
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.fRAME {
+  position: absolute;
+  top: 48px;
+  left: 341px;
+  border-radius: 0 var(--br-3xs) 0 0;
+  background: linear-gradient(
+    180deg,
+    #fff,
+    #f3f3f7 66.67%,
+    rgba(243, 243, 247, 0.88)
+  );
+  width: 1544px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-13xl) var(--padding-26xl) var(--padding-8xs)
+    var(--padding-27xl);
+  gap: var(--gap-sm);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+  font-family: var(--bold-16-24);
+}
+.heroiconsMinihome {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iCON {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.home {
+  flex: 1;
+  position: relative;
+}
+.homeMenu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.searchIcon1 {
+  width: 23px;
+  height: 23px;
+  position: relative;
+}
+.gROUP1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.search1 {
+  flex: 1;
+  position: relative;
+}
+.searchMenu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.bookshelfIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bookshelfWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.myShelf {
+  flex: 1;
+  position: relative;
+}
+.myShelfMenu {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.tEXT2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 var(--padding-11xs-5);
+}
+.fRAME16,
+.iNSTANCE,
+.tEXT2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fRAME16 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-15xl);
+}
+.iNSTANCE {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) var(--padding-448xl) var(--padding-11xs-5);
+}
+.about,
+.iNSTANCE,
+.support {
+  align-self: stretch;
+}
+.about,
+.support,
+.termsCondition {
+  position: relative;
+  z-index: 2;
+}
+.aboutParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.aboutParent,
+.sideBar1,
+.supportTermsCondition {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.supportTermsCondition {
+  width: 138px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+}
+.sideBar1 {
+  flex: 1;
+  border-radius: var(--br-3xs) 0 0 var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-193xl) var(--padding-47xl) var(--padding-32xl);
+  gap: var(--gap-15xl);
+}
+.contribute,
+.giveGiftIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.giveGiftIcon {
+  height: 21px;
+  width: 21px;
+  overflow: hidden;
+}
+.contribute {
+  align-self: stretch;
+  flex: 1;
+}
+.favouriteMenu,
+.sideBar {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.favouriteMenu {
+  height: 25px;
+  width: 169px;
+  display: none;
+  align-items: center;
+  gap: var(--gap-xs);
+  color: var(--color-dimgray);
+}
+.sideBar {
+  position: absolute;
+  top: 48px;
+  left: 35px;
+  width: 306px;
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  font-family: var(--bold-16-24);
+}
+.shelf,
+.smart {
+  margin: 0;
+  position: absolute;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  height: 145.7px;
+}
+.shelf {
+  top: 89px;
+  left: -198px;
+  background: linear-gradient(91.24deg, #ee7a3a, #ea357d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 736px;
+  z-index: 4;
+}
+.smart {
+  top: 142px;
+  left: -179px;
+  letter-spacing: 0.22em;
+  color: var(--color-dimgray);
+  width: 701px;
+  z-index: 5;
+}
+.transcationHistoryChild {
+  position: absolute;
+  top: 529px;
+  left: 1059px;
+  border-top: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  width: 391px;
+  height: 1px;
+  z-index: 1;
+}
+.transcationHistory {
+  width: 100%;
+  height: 1056px;
+  position: relative;
+  background-color: var(--light-mode-white-50);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 1325px) {
+  .rectangleContainer {
+    display: none;
+  }
+  .fRAME9 {
+    width: 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .shelf,
+  .smart {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .contribute,
+  .home,
+  .myShelf,
+  .search1 {
+    font-size: var(--bold-16-24-size);
+  }
+  .shelf,
+  .smart {
+    font-size: var(--font-size-10xl);
+  }
+  
+}

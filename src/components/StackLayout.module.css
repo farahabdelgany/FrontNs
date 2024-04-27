@@ -1,0 +1,244 @@
+.bgVectorIcon {
+  height: 1143.5px;
+  width: 1994.3px;
+  position: absolute;
+  margin: 0 !important;
+  top: -115px;
+  right: -1616.3px;
+}
+.heroiconsMinihome {
+  height: 23px;
+  width: 23px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.home {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.homeMenu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xs);
+  color: var(--color-dimgray);
+}
+.searchIcon {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.search {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.searchMenu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  gap: var(--gap-2xs);
+  cursor: pointer;
+}
+.bookshelfIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.myShelf {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.myShelfMenu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  gap: var(--gap-xs);
+  cursor: pointer;
+}
+.contribute,
+.giveGiftIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.giveGiftIcon {
+  height: 21px;
+  width: 21px;
+  overflow: hidden;
+}
+.contribute {
+  height: 25px;
+  flex: 1;
+  display: inline-block;
+}
+.favouriteMenu,
+.sideMenu,
+.sideMenu1 {
+  align-items: center;
+  justify-content: flex-start;
+}
+.favouriteMenu {
+  width: 169px;
+  display: none;
+  flex-direction: row;
+  gap: var(--gap-xs);
+  cursor: pointer;
+}
+.sideMenu,
+.sideMenu1 {
+  display: flex;
+  flex-direction: column;
+}
+.sideMenu1 {
+  align-self: stretch;
+  gap: var(--gap-15xl);
+}
+.sideMenu {
+  z-index: 2;
+}
+.about,
+.sideMenu,
+.support {
+  align-self: stretch;
+}
+.about,
+.support,
+.termsCondition {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.toolTip {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.modal,
+.sideBar,
+.toolTip {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.modal {
+  width: 138px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+}
+.sideBar {
+  flex: 1;
+  border-radius: var(--br-3xs) 0 0 var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-193xl) var(--padding-47xl) var(--padding-32xl);
+  gap: var(--gap-482xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  font-family: var(--bold-16-24);
+}
+.shelf,
+.smart {
+  margin: 0 !important;
+  height: 145.7px;
+  position: absolute;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.shelf {
+  width: 736px;
+  top: 36px;
+  left: -226px;
+  background: linear-gradient(91.24deg, #ee7a3a, #ea357d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 2;
+}
+.smart {
+  width: 701px;
+  top: 89px;
+  left: -207px;
+  letter-spacing: 0.22em;
+  color: var(--color-dimgray);
+  z-index: 4;
+}
+.stackLayout {
+  width: 306px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  margin-top: -994px;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 1000px) {
+  .sideBar {
+    padding-top: var(--padding-995xl);
+    padding-bottom: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 975px) {
+  .shelf,
+  .smart {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 725px) {
+  .sideBar {
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contribute,
+  .home,
+  .myShelf,
+  .search {
+    font-size: var(--bold-16-24-size);
+  }
+  .sideBar {
+    gap: var(--gap-231xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .shelf,
+  .smart {
+    font-size: var(--font-size-10xl);
+  }
+}

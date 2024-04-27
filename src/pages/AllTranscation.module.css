@@ -1,0 +1,278 @@
+.bgVectorIcon {
+  position: absolute;
+  top: -66.3px;
+  left: -37.3px;
+  width: 1994.3px;
+  height: 1143.5px;
+}
+.shelf,
+.smart {
+  margin: 0;
+  position: absolute;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  height: 145.7px;
+}
+.shelf {
+  top: 89px;
+  left: -198px;
+  background: linear-gradient(91.24deg, #ee7a3a, #ea357d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 736px;
+  z-index: 4;
+}
+.smart {
+  top: 148px;
+  left: -179px;
+  letter-spacing: 0.22em;
+  width: 701px;
+  z-index: 5;
+}
+.recentTransactions {
+  position: absolute;
+  top: 562px;
+  left: 1059px;
+  border-top: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  width: 391px;
+  height: 1px;
+  z-index: 1;
+}
+.all1 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 21px;
+}
+.all {
+  border-bottom: 2px solid var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-5xs) var(--padding-8xs);
+  color: var(--color-black);
+}
+.revenue1 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 68px;
+}
+.revenue {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.expenses1 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 77px;
+}
+.expenses,
+.menuTab {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.expenses {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs);
+}
+.menuTab {
+  width: 304px;
+  flex-direction: row;
+  padding: 0 var(--padding-31xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.items {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.item {
+  width: 202px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.date,
+.paymentMethod,
+.shopName {
+  width: 144px;
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.paymentMethod {
+  width: 168px;
+}
+.headerContent1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.amount {
+  width: 84px;
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  text-align: right;
+  flex-shrink: 0;
+}
+.headerContent {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-53xl);
+  min-width: 503px;
+  text-align: center;
+}
+.header,
+.headerContent,
+.transactionList1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.header {
+  align-self: stretch;
+  border-bottom: 1px solid var(--special-bg);
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-4xl) 0 var(--padding-sm);
+  gap: var(--gap-53xl);
+}
+.transactionList1 {
+  width: 1048px;
+  overflow-x: auto;
+  flex-direction: column;
+}
+.addAccounts {
+  flex: 1;
+  position: relative;
+  font-size: var(--bold-16-24-size);
+  line-height: 24px;
+  text-transform: capitalize;
+  font-family: var(--bold-16-24);
+  color: var(--light-mode-white-50);
+  text-align: center;
+}
+.buttonBig,
+.transactionList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buttonBig {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--color-tomato-100);
+  width: 192px;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.buttonBig:hover {
+  background-color: var(--color-tomato-400);
+}
+.transactionList {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.mainContent1 {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--light-mode-white-50);
+  box-shadow: var(--shadow-01);
+  padding: 0 var(--padding-9xl) var(--padding-37xl);
+  box-sizing: border-box;
+  color: var(--default-black);
+}
+.mainContent,
+.mainContent1,
+.recentTransaction {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.mainContent {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.recentTransaction {
+  position: absolute;
+  top: 184px;
+  left: 445px;
+  width: 1104px;
+  z-index: 6;
+  text-align: left;
+  font-size: var(--bold-16-24-size);
+  color: var(--secondary);
+  font-family: var(--bold-16-24);
+}
+.allTranscation {
+  width: 100%;
+  height: 1122px;
+  position: relative;
+  background-color: var(--light-mode-white-50);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 1125px) {
+  .allTranscation {
+    height: auto;
+    min-height: 1122;
+  }
+}
+@media screen and (max-width: 800px) {
+  .shelf,
+  .smart {
+    font-size: var(--font-size-19xl);
+  }
+  .headerContent,
+  .headerContent1 {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .shelf,
+  .smart {
+    font-size: var(--font-size-10xl);
+  }
+}

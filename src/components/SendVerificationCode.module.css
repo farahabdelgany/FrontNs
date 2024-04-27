@@ -1,0 +1,283 @@
+.sendVerificationCodeChild {
+  width: 375px;
+  height: 804px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-black);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.sendVerificationCodeItem {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: -1px;
+  border-radius: var(--br-21xl);
+  background-color: var(--light-mode-white-50);
+  z-index: 1;
+}
+.wrapperGroup513789Child {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  object-fit: contain;
+  position: absolute;
+  left: 20px;
+  top: -3px;
+  transform: scale(1.258);
+}
+.wrapperGroup513789 {
+  height: 245px;
+  width: 248px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperGroup513789Wrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-16xl);
+}
+.resetYourPassword {
+  margin: 0;
+  width: 259px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 34px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.resetYourPasswordWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) 0 var(--padding-base);
+}
+.andWellSend,
+.enterYourEmail {
+  margin: 0;
+}
+.enterYourEmailContainer {
+  height: 48px;
+  position: relative;
+  font-size: var(--body-large-size);
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  color: var(--light-mode-grey-500);
+  display: inline-block;
+  z-index: 2;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.sendVerificationCodeInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-smi) 0 var(--padding-2xl);
+}
+.rectangleDiv {
+  width: 60px;
+  height: 6px;
+  position: absolute;
+  margin: 0 !important;
+  top: 81px;
+  right: 156px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  z-index: 2;
+}
+.emailAddress {
+  position: relative;
+  font-size: var(--bold-16-24-size);
+  letter-spacing: 0.01em;
+  line-height: 26px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 117px;
+  z-index: 2;
+}
+.background {
+  height: 56px;
+  width: 327px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-ghostwhite);
+  display: none;
+  max-width: 100%;
+}
+.shapeIcon {
+  width: 16px;
+  height: 12px;
+  position: relative;
+  z-index: 3;
+}
+.shapeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.enterEmailAddress {
+  width: 184px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.background1,
+.backgroundParent {
+  border-radius: var(--br-mini);
+  max-width: 100%;
+}
+.backgroundParent {
+  align-self: stretch;
+  background-color: var(--color-ghostwhite);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-lg);
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  z-index: 2;
+}
+.background1 {
+  height: 56px;
+  width: 327px;
+  position: relative;
+  background-color: var(--color-coral);
+  display: none;
+}
+.sendVerificationCode1 {
+  width: 166px;
+  position: relative;
+  font-size: var(--body-large-size);
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--body-large);
+  color: var(--light-mode-white-50);
+  text-align: center;
+  display: inline-block;
+  z-index: 3;
+}
+.backgroundGroup,
+.sendVerificationCodeButton {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.backgroundGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-xl) var(--padding-mid)
+    var(--padding-6xl);
+  background-color: var(--color-coral);
+  border-radius: var(--br-mini);
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 2;
+}
+.backgroundGroup:hover {
+  background-color: var(--color-chocolate);
+}
+.sendVerificationCodeButton {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  color: var(--light-mode-grey-500);
+}
+.needHelp {
+  width: 216px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.emailAddressParent,
+.needHelpFaqTermsOfUseWrapper,
+.sendVerificationCode {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.needHelpFaqTermsOfUseWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-37xl) 0 var(--padding-36xl);
+  text-align: center;
+  color: var(--color-gray-100);
+}
+.emailAddressParent,
+.sendVerificationCode {
+  flex-direction: column;
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-large-size);
+}
+.sendVerificationCode {
+  flex: 1;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-black);
+  align-items: flex-end;
+  padding: var(--padding-128xl) var(--padding-5xl) var(--padding-5xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-20xl-5);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--light-mode-black-500);
+  font-family: var(--body-large);
+}
+@media screen and (max-width: 800px) {
+  .sendVerificationCode {
+    padding-top: var(--padding-77xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .resetYourPassword {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .needHelpFaqTermsOfUseWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .sendVerificationCode {
+    gap: var(--gap-xl);
+    padding-top: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}

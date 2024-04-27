@@ -1,0 +1,154 @@
+.heroiconsMinihome {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.stepper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.home {
+  flex: 1;
+  position: relative;
+}
+.homeMenu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.searchIcon {
+  width: 23px;
+  height: 23px;
+  position: relative;
+}
+.dataAggregator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.search {
+  flex: 1;
+  position: relative;
+}
+.searchMenu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.bookshelfIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.treeTraverser {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.myShelf {
+  flex: 1;
+  position: relative;
+}
+.myShelfMenu {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.valueComparator {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 var(--padding-11xs-5);
+}
+.searchBar,
+.toolbar,
+.valueComparator {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.toolbar {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-15xl);
+}
+.searchBar {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) var(--padding-448xl) var(--padding-11xs-5);
+}
+.about,
+.searchBar,
+.support {
+  align-self: stretch;
+}
+.about,
+.support,
+.termsCondition {
+  position: relative;
+  z-index: 1;
+}
+.sizeModifier {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.positionCalculator,
+.sideBar,
+.sizeModifier {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.positionCalculator {
+  width: 138px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+}
+.sideBar {
+  flex: 1;
+  border-radius: var(--br-3xs) 0 0 var(--br-3xs);
+  background-color: var(--light-mode-white-50);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-193xl) var(--padding-47xl) var(--padding-32xl);
+  gap: var(--gap-15xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--bold-16-24);
+}
+@media screen and (max-width: 450px) {
+  .home,
+  .myShelf,
+  .search {
+    font-size: var(--bold-16-24-size);
+  }
+}
